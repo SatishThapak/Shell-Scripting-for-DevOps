@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if docker ps | grep -q my_container; then
+if docker ps | grep -q apache-server; then
 echo "Container is running"
 else
 echo "Container is down"
